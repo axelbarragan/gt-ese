@@ -63,10 +63,15 @@ html {
 .fondo-blanco {
   background-color: #FFF !important;
 }
+.fondo-gris {
+  background-color: #333 !important;
+}
 /*---*/
 
 /*PADDING*/
-
+.pad-top-05 {
+  padding-top: 05px;
+}
 /*---*/
 
 /*MEDIA QUERIES*/
@@ -79,6 +84,9 @@ html {
   }
   .dez {
     display: none !important;
+  }
+  .navbar-brand {
+    padding: 15px 15px !important;
   }
 }
 
@@ -257,4 +265,21 @@ div.avatar {
   background-position: 50%;
   border-radius: 50%;
   background-size: 100% auto;
+}
+div.avatar:hover {
+  animation-name: hover;
+  animation-duration: .5s;
+}
+
+@keyframes hover {
+  0% { 
+    transform: scale(1); 
+  }
+  50% { 
+    transform: scale(1.5) rotate(03deg); 
+    z-index: 100 !important;
+  }
+  100% { 
+    transform: scale(1); 
+  }
 }

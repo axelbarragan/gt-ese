@@ -1,3 +1,8 @@
+<?php
+
+  include_once('../config/config.php');
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,11 +13,11 @@
   <meta name="author" content="esenciateotihuacan.com">
   <meta name="theme-color" content="#04e4a0">
   <meta name="keywords" content="pendiente">
-  <title>Esencia Teotihuacan</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/main.css" >
+  <title>Próximos eventos | Esencia Teotihuacan</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/font-awesome.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/main.css" >
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -21,43 +26,12 @@
     <![endif]-->
   </head>
   <body>
-    <div class="preloader"><img src="assets/img/loading.gif"/><span class="sr-only">Loading...</span></div>
-    <nav class="navbar navbar-flubox navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll texto-quantify" href="#page-top">Esencia Teotihuacan</a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="hidden">
-              <a class="page-scroll" href="#page-top"></a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#page-top">Inicio</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#nosotros">Nosotros</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#que-hacemos">Que hacemos</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#contacto">Contáctanos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="preloader"><img src="../assets/img/loading.gif"/><span class="sr-only">Loading...</span></div>
+    <?php include_once('../menu.php'); ?>
     <section id="intro" class="intro">
       <div class="header-content">
         <div class="header-content-inner">
-        <div class="col-lg-12">
+          <div class="col-lg-12 hidden-xs">
             <div class="col-lg-4">
               <div class="avatar center-block" style="background-image: url(assets/img/circulo/uno.jpg)"></div>
             </div>
@@ -67,6 +41,9 @@
             <div class="col-lg-4">
               <div class="avatar center-block" style="background-image: url(assets/img/circulo/tres.jpg)"></div>
             </div>
+          </div>
+          <div class="col-lg-12 visible-xs">
+            s
           </div>
         </div>
       </div>
@@ -92,7 +69,7 @@
     <section id="diseño" class="seccion publicidad fondo-azul texto-blanco">
       <div class="container">
         <div class="row">
-        
+
         </div>
       </div>
     </section>
@@ -113,18 +90,14 @@
     <footer>
       <div class="f2">
         <div class="col-lg-12 texto-centro">
-          <p>Flubox 2017 | Todos los derechos reservados</p>
+          <p>Esencia Teotihuacan 2017</p>
         </div>
       </div>
     </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/parallax.js"></script>
-    <script src="js/jquery.waypoints.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.waypoints.js"></script>
+    <script src="../https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+    <script src="../js/main.js"></script>
   </body>
   </html>
