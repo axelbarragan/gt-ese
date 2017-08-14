@@ -1,0 +1,260 @@
+/*main.css*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.no_scroll{
+  overflow:hidden;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: #fff;
+}
+.preloader > img {
+  position: absolute;
+  font-size: 36px;
+  line-height: 36px;
+  top: 45%;
+  left: 46%;
+  height: 128px;
+  width: 128px;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: inline-block;
+}
+
+.img-shadow {
+  box-shadow: 0 17px 54px 0 rgba(92, 92, 92, 0.5);
+}
+
+/*FORMATO DE TEXTO*/
+.texto-centro {
+  text-align: center;
+}
+.texto-derecha {
+  text-align: right;
+}
+.texto-izquierda {
+  text-align: left;
+}
+.texto-italica {
+  font-style: italic;
+}
+/*---*/
+
+/*COLORES DE FONDO*/
+.fondo-blanco {
+  background-color: #FFF !important;
+}
+/*---*/
+
+/*PADDING*/
+
+/*---*/
+
+/*MEDIA QUERIES*/
+@media(min-width:767px) {
+  .top-nav-collapse {
+    padding: 0;
+  }
+  .dex {
+    display: block !important;
+  }
+  .dez {
+    display: none !important;
+  }
+}
+
+@media(max-width:992px) {
+  .titulo-desc {
+    padding-top: .7em !important;
+    padding-bottom: .0em !important;
+  }
+}
+
+@media(max-width:766px) {
+  .em-2 {
+    font-size: 1.1em !important;
+  }
+  .intro  h1 { 
+    padding-top: 50px !important;
+  }
+  .ser-recom .texto {
+    margin-left: 20px !important;
+    font-size: 1.4em;
+  }
+  .ser-box {
+    padding-top: 20px !important;
+  }
+  .price_table_heading {
+    font-size: 1.7em !important;
+  }
+  .cost {
+    font-size: 1.4em !important;
+  }
+  .dex {
+    display: none !important;
+  }
+  .dez {
+    display: block !important;
+  }
+  .preloader > img {
+    left: 35% !important;
+  }
+  .titulo-desc {
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+    padding-top: 0.9em;
+  }
+
+}
+/*---*/
+
+/*SECCIONES DE LA PÁGINA*/
+.seccion {
+  height: auto;
+  /*padding-top: 50px;*/
+  padding-bottom: 50px;
+}
+
+.intro {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background-image: url('../assets/img/intro02.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 50px;
+  width: 100%;
+  text-align: center;
+}
+.header-content-inner {
+  /*quitar el max para dejar separados los circulos*/
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-blanco {
+  color: #fff !important;
+}
+
+.contacto {
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #eee;
+}
+
+footer {
+  width: 100%;
+  height: 0 auto;  
+  color: white;
+}
+footer .f1 {
+  background-color: #333;
+  height: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+footer .f1 .fa {
+  color: white;
+}
+footer .f2 {
+  background-color: #222;
+  height: 50px;
+}
+footer .f2 p {
+  padding-top: 15px;
+}
+
+/*NAVBAR BLANCO*/
+.navbar-flubox .navbar-brand span.parteuno {
+  color: rgba(0, 105, 156, 1);
+  /*font-size: 1.5em;*/
+}
+.navbar-flubox .navbar-brand span.partedos {
+  color: rgba(105, 177, 227, 1);
+  /*font-size: 1.5em;*/
+}
+.navbar-flubox {
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-width: 2px;
+}
+.navbar-flubox .navbar-nav>li>a {
+  color: rgba(125, 125, 125, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.navbar-flubox .navbar-nav>li>a:hover,
+.navbar-flubox .navbar-nav>li>a:focus {
+  color: rgba(4, 100, 160, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.navbar-flubox .navbar-nav>.active>a,
+.navbar-flubox .navbar-nav>.active>a:hover,
+.navbar-flubox .navbar-nav>.active>a:focus {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.navbar-flubox .navbar-toggle {
+  border-color: #AAA;
+}
+.navbar-flubox .navbar-toggle:hover,
+.navbar-flubox .navbar-toggle:focus {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+.navbar-flubox .navbar-toggle .icon-bar {
+  background-color: #333333;
+}
+.navbar-flubox .navbar-toggle:hover .icon-bar,
+.navbar-flubox .navbar-toggle:focus .icon-bar {
+  background-color: #fff;
+}
+/*---*/
+
+
+
+
+
+
+.inp-error {
+  color: red;
+}
+/**************************************************************/
+
+div.avatar {
+  /* cambia estos dos valores para definir el tamaño de tu círculo */
+  height: 300px;
+  width: 300px;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
