@@ -33,13 +33,13 @@ include_once('config/config.php');
         <div class="header-content-inner">
           <div class="col-lg-12 hidden-xs">
             <div class="col-lg-4">
-              <div class="avatar center-block" style="background-image: url(assets/img/circulo/uno.jpg)"></div>
+              <div class="avatar center-block" style="background-image: url(assets/img/circulo/cultura.png)"></div>
             </div>
             <div class="col-lg-4">
-              <div class="avatar center-block" style="background-image: url(assets/img/circulo/dos.jpg)"></div>
+              <div class="avatar center-block" style="background-image: url(assets/img/circulo/aventura.png)"></div>
             </div>
             <div class="col-lg-4">
-              <div class="avatar center-block" style="background-image: url(assets/img/circulo/tres.jpg)"></div>
+              <div class="avatar center-block" style="background-image: url(assets/img/circulo/deporte.png)"></div>
             </div>
           </div>
           <div class="col-lg-12 visible-xs">

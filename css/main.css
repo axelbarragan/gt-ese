@@ -86,7 +86,7 @@ html {
     display: none !important;
   }
   .navbar-brand {
-    padding: 15px 15px !important;
+    padding: 0px;
   }
 }
 
@@ -282,4 +282,9 @@ div.avatar:hover {
   100% { 
     transform: scale(1); 
   }
+}
+
+.img-logo-brand {
+  height: 60px;
+  padding: 0px 0px 5px;
 }
