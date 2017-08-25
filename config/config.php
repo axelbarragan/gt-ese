@@ -17,7 +17,7 @@ switch ($estado) {
 	break;
 
 	case '1':
-	  DEFINE('LINK','http://www.paginaweb.com');
+	  DEFINE('LINK','http://www.esenciateotihuacan.com');
 	break;
 }
 

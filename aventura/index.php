@@ -14,10 +14,7 @@
   <meta name="theme-color" content="#04e4a0">
   <meta name="keywords" content="pendiente">
   <title>Aventura | Esencia Teotihuacan</title>
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <link rel="stylesheet" href="../css/font-awesome.css">
-  <link rel="stylesheet" href="../css/animate.css">
-  <link rel="stylesheet" href="../css/main.css" >
+  <?php include_once('../linkcss.php'); ?>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -87,17 +84,7 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="f2">
-        <div class="col-lg-12 texto-centro">
-          <p>Esencia Teotihuacan 2017</p>
-        </div>
-      </div>
-    </footer>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/jquery.waypoints.js"></script>
-    <script src="../https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
-    <script src="../js/main.js"></script>
+    <?php include_once('../footer.php'); ?>
+    <?php include_once('../scripts.php'); ?>
   </body>
   </html>
