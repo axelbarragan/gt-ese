@@ -68,9 +68,25 @@ html {
 }
 /*---*/
 
+/**/
+.texto-blanco {
+  color: #fff !important;
+}
+/*---*/
+
 /*PADDING*/
 .pad-top-05 {
   padding-top: 05px;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-bot-10 {
+  padding-bottom: 10px;
+}
+.pad-evento {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*---*/
 
@@ -141,7 +157,7 @@ html {
 /*SECCIONES DE LA PÁGINA*/
 .seccion {
   height: auto;
-  /*padding-top: 50px;*/
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -167,10 +183,6 @@ html {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.texto-blanco {
-  color: #fff !important;
 }
 
 .contacto {
@@ -290,4 +302,18 @@ div.avatar:hover {
 .img-logo-brand {
   height: 60px;
   padding: 0px 0px 5px;
+}
+
+hr.concolor {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 3px solid #ccc;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+.imagen-evento {
+  width: 300px;
+  height: 300px;
 }

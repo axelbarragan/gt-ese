@@ -13,6 +13,7 @@ include_once('config/config.php');
   <meta name="author" content="esenciateotihuacan.com">
   <meta name="theme-color" content="#333333">
   <meta name="keywords" content="pendiente">
+  <?php include_once('favicon.php'); ?>
   <title>Esencia Teotihuacan</title>
   <?php include_once('linkcss.php'); ?>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
