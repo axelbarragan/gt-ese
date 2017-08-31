@@ -38,7 +38,7 @@ include_once('../../config/config.php');
           </div>
           <div class="col-lg-12 fondo-gris">
             <div class="col-lg-6 pad-evento">
-              <img class="img-responsive center-block imagen-evento" src="../assets/img/eventos/IMG-20170823-WA0003.jpg">
+              <img class="img-responsive center-block imagen-evento" src="<?php echo LINK; ?>assets/img/eventos/IMG-20170823-WA0003.jpg">
             </div>
             <div class="col-lg-6 texto-blanco">
               <h3>1ER TORNEO DE TAEKWONDO TEOTIHUACAN "EL CAMINO DEL GUERRERO"</h3>

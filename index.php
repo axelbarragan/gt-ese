@@ -49,31 +49,9 @@ include_once('config/config.php');
     <section id="nosotros" class="seccion nosotros pad-top-50">
       <div class="container">
         <div class="row">
-        </div>
-      </div>
-    </section>
-    <section id="que-hacemos" class="seccion servicios pad-top-50">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </section>
-    <section id="sitios-web" class="seccion sitios fondo-azul texto-blanco">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </section>
-    <section id="diseño" class="seccion publicidad fondo-azul texto-blanco">
-      <div class="container">
-        <div class="row">
-
-        </div>
-      </div>
-    </section>
-    <section id="publicidad" class="seccion publicidad fondo-azul texto-blanco">
-      <div class="container">
-        <div class="row">
+          <div class="col-lg-12">
+            <h4>Próximos eventos</h4>
+          </div>
         </div>
       </div>
     </section>
