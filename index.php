@@ -140,7 +140,7 @@ include_once('config/config.php');
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="col-lg-6 col-lg-offset-3">
+              <div class="col-lg-8 col-lg-offset-2">
                 <form id="frmContacto">
                   <div class="form-group">
                     <label for="nombre">Escribe tu nombre</label>
