@@ -76,6 +76,22 @@ $(window).on('load', function() {
 			$('.navbar-ex1-collapse').collapse('hide');
 		});
 
+		$(".owl-carousel").owlCarousel({
+			autoplay: true,
+			autoplayTimeout:1000,
+			center: true,
+			nav: true,
+			navText: ["Anterior","Siguiente"],
+			items:2,
+			loop:true,
+			margin:50,
+			responsive:{
+				600:{
+					items:4
+				}
+			}
+		});
+
 		/*Waypoint*/
 		$('#quienes-somos').css('opacity', 0);
 		$('.ser-general').css('opacity', 0);

@@ -19,6 +19,9 @@ switch ($estado) {
 	case '1':
 	  DEFINE('LINK','http://www.esenciateotihuacan.com');
 	break;
+
+	case '2':
+	  DEFINE('LINK','http://192.168.1.79/'.$carpetas.$nombreProyecto);
 }
 
 

@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Esencia Teotihuacan. Cultura, Aventura y Deporte.">
   <meta name="author" content="esenciateotihuacan.com">
-  <meta name="theme-color" content="#04e4a0">
+  <meta name="theme-color" content="#1d70b7">
   <meta name="keywords" content="pendiente">
   <title>Deporte | Esencia Teotihuacan</title>
   <?php include_once('../linkcss.php'); ?>
