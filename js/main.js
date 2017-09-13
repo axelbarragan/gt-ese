@@ -72,9 +72,9 @@ $(window).on('load', function() {
 		});
 
 
-		$('.nav a').click(function(){
+		/*$('.nav a').click(function(){
 			$('.navbar-ex1-collapse').collapse('hide');
-		});
+		});*/
 
 		$(".owl-carousel").owlCarousel({
 			autoplay: true,

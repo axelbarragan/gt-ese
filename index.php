@@ -29,27 +29,27 @@ include_once('config/config.php');
     <section id="intro" class="intro">
       <div class="header-content">
         <div class="header-content-inner">
-          <div class="col-lg-12 hidden-xs">
-            <div class="col-lg-4">
-              <a href="cultura/"><div class="avatar center-block" style="background-image: url(assets/img/circulo/cultura.png)"></div></a>
+          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="cultura/"><div class="avatar center-block img-responsive" style="background-image: url(assets/img/circulo/cultura.png)"></div></a>
             </div>
-            <div class="col-lg-4">
-              <a href="aventura/"><div class="avatar center-block" style="background-image: url(assets/img/circulo/aventura.png)"></div></a>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="aventura/"><div class="avatar center-block img-responsive" style="background-image: url(assets/img/circulo/aventura.png)"></div></a>
             </div>
-            <div class="col-lg-4">
-              <a href="deporte/"><div class="avatar center-block" style="background-image: url(assets/img/circulo/deporte.png)"></div></a>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="deporte/"><div class="avatar center-block img-responsive" style="background-image: url(assets/img/circulo/deporte.png)"></div></a>
             </div>
           </div>
-          <div class="col-lg-12 visible-xs">
-            s
+          <div class="col-xs-12 visible-xs">
+            <img class="img-responsive" src="assets/img/logo.png">
           </div>
         </div>
       </div>
     </section>
-    <section class="seccion fondo-blanco">
+    <section class="seccion fondo-blanco imagen-teoti">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 fondo-dec">
             <h1 class="texto-centro barrita texto-quicksand texto-d">¡ESTO ES TEOTIHUACAN!</h1>
             <p class="texto-justificado pad-top-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

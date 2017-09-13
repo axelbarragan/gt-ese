@@ -425,3 +425,24 @@ hr.concolor {
   background: #F8A12b;
   margin: 20px auto 0;
 }
+
+/*.imagen-teoti {
+  background-image: url(../assets/img/teoti.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.fondo-dec {
+  background-color: rgba(51, 51, 51, 0.4);
+  padding: 10px;
+}*/
+
+.divider-naranja {
+    background-color: #e84e1b !important;
+}
+.divider-verde {
+    background-color: #93c01f !important;
+}
+.divider-azul {
+    background-color: #1d70b7 !important;
+}

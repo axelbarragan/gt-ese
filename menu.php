@@ -14,14 +14,29 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <li>
-          <a href="<?php echo LINK; ?>cultura/">Cultura</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cultura <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo LINK; ?>cultura/">Inicio</a></li>
+            <li role="separator" class="divider divider-naranja"></li>
+            <li><a href="#">Descifra</a></li>
+          </ul>
         </li>
-        <li>
-          <a href="<?php echo LINK; ?>aventura/">Aventura</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aventura <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo LINK; ?>aventura/">Inicio</a></li>
+            <li role="separator" class="divider divider-verde"></li>
+            <li><a href="#">Celebra</a></li>
+          </ul>
         </li>
-        <li>
-          <a href="<?php echo LINK; ?>deporte/">Deporte</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Deporte <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo LINK; ?>deporte/">Inicio</a></li>
+            <li role="separator" class="divider divider-azul"></li>
+            <li><a href="#">Renueva</a></li>
+          </ul>
         </li>
         <li>
           <a href="<?php echo LINK; ?>eventos/">Próximos eventos</a>
@@ -29,6 +44,7 @@
         <li>
           <a href="<?php echo LINK; ?>index.php#contacto">Contacto</a>
         </li>
+        
       </ul>
     </div>
   </div>
