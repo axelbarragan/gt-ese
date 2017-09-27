@@ -25,7 +25,7 @@ include_once('../../config/config.php');
   <body>
     <div class="preloader"><img src="../../assets/img/loading.gif"/><span class="sr-only">Loading...</span></div>
     <?php include_once('../../menu.php'); ?>
-    <section id="intro" class="intro">
+    <section id="intro" class="intro-mediano">
       <div class="header-content">
       </div>
     </section>
